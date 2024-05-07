@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <title>Frontend Mentor | Social links profile</title>
+  <style>
+    body {
+      background-color: hsl(0, 0%, 8%);
+
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+    img {
+      border-radius: 100%;
+
+      width: 70px;
+    }
+
+    .container {
+      background-color: hsl(0, 0%, 12%);
+      border-radius: 10px;
+      font-family: "Inter", sans-serif;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      padding: 20px 30px;
+      width: auto;
+    }
+
+    .info-wrapper {
+      margin: 5px 0px 30px 0px;
+    }
+    .info-container p {
+      margin: 6px 0px;
+    }
+    .info-container p {
+      color: hsl(0, 0%, 100%);
+    }
+    /* Jessica Randall */
+    .info-container p:nth-child(1) { 
+      font-size: 20px;
+    }
+    /* London, United Kingdom */
+    .info-container p:nth-child(2) {
+      color: hsl(75, 94%, 57%);
+      font-size: 12px;
+    }
+    /* "Front-end developer and avid reader." */
+    .info-container p:nth-child(3) {
+      color: hsl(0, 0%, 81%);
+      font-size: 12px;
+
+      margin-top: 22px;
+    }
+
+    .link-container {
+      display: flex;
+      flex-direction: column;
+
+      gap: 10px;
+    }
+    .link-container a {
+      background-color: hsl(0, 0%, 20%);
+      text-decoration: none;
+      color: hsl(0, 0%, 100%);
+      border-radius: 5px;
+      font-size: 13px;
+      font-weight: 600;
+
+      padding: 10px 0px;
+
+      transition: background-color 0.15s,
+                  color 0.15s;
+    }
+    .link-container a:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 12%);
+    }
+    .link-container a:focus {
+      outline: 1px solid hsl(0, 0%, 100%);
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+  <section class="container">
+    <div class="social-container">
+      <div class="avatar-wrapper">
+        <img src="assets/images/avatar-jessica.jpeg" alt="avatar image">
+      </div>
+
+      <div class="info-wrapper">
+        <div class="info-container">
+          <p>Jessica Randall</p>
+          <p>London, United Kingdom</p>
+          <p>"Front-end developer and avid reader."</p>
+        </div>
+      </div>
+
+      <div class="link-container">
+        <a href=""><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href=""><i class="fa-solid fa-flag"></i> Frontend Mentor</a>
+        <a href=""><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a href=""><i class="fa-brands fa-twitter"></i> Twitter</a>
+        <a href=""><i class="fa-brands fa-instagram"></i> Instragram</a>
+      </div>
+    </div>
+  </section>
+
+  
+</body>
+</html>
