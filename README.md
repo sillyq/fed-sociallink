@@ -26,7 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshots/screenshot1.png)
+- First version with default text
+    ![](screenshots/screenshot1.png)
+
+- Finished version with my own information
+    ![](screenshots/screenshot2.png)
 
 ### Links
 
@@ -45,7 +49,7 @@ Users should be able to:
 
 ### What I learned
 
-- nothing
+- What & How to use `max-width` and `text-wrap`
 
 ### Useful resources
 
