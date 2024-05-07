@@ -30,6 +30,9 @@
 
       width: 70px;
     }
+    p, h1, h2 {
+      margin: 0;
+    }
 
     .container {
       background-color: hsl(0, 0%, 12%);
@@ -57,16 +60,22 @@
     .info-container p {
       color: hsl(0, 0%, 100%);
     }
-    /* Jessica Randall */
-    .info-container p:nth-child(1) { 
+    /* Name */
+    .info-container h1 { 
+      color: hsl(0, 0%, 100%);
+
       font-size: 20px;
+
+      margin-top: 5px;
     }
-    /* London, United Kingdom */
-    .info-container p:nth-child(2) {
+    /* Location */
+    .info-container h2 {
       color: hsl(75, 94%, 57%);
       font-size: 12px;
+
+      margin-top: 10px;
     }
-    /* "Front-end developer and avid reader." */
+    /* Descriptions */
     .info-container p:nth-child(3) {
       color: hsl(0, 0%, 81%);
       font-size: 12px;
@@ -112,8 +121,8 @@
 
       <div class="info-wrapper">
         <div class="info-container">
-          <p>SILLYQ</p>
-          <p>Bangkok, Thailand</p>
+          <h1>SILLYQ</h1>
+          <h2>Bangkok, Thailand</h2>
           <p>" Youtuber, Front-end developer, Graphic Designer and Video Editor "</p>
         </div>
       </div>
